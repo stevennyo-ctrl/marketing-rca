@@ -1,0 +1,19 @@
+flowchart TD
+  R[(Underperformance)] --> A[Targeting]
+  R --> B[Channel & Creative]
+  R --> C[Timing]
+  R --> D[Product/Dept Fit]
+  R --> E[Discount Economics]
+  R --> F[Store Ops]
+  R --> G[Frequency]
+
+  A --> H1[H1: 45–54 / 50–74K > avg Incremental Rev/HH]
+  B --> H2[H2: Mailer+In-store > single channel (Lift%, AOV)]
+  C --> H3[H3: Weeks 40–52 > others (Lift%)]
+  D --> H4[H4: Grocery > Drug GM (Lift%, ROI)]
+  D --> H5[H5: coupon_match_disc>0 ↑AOV]
+  E --> H6[H6: ROI convex vs discount depth → optimum]
+  F --> H7[H7: Store compliance drives Lift% variance]
+  G --> H8[H8: Diminishing returns by exposure freq]
+
+
