@@ -1,5 +1,5 @@
-text
-mermaid
+
+```mermaid
 flowchart TD
   A[Campaign underperformance] --> B[Targeting]
   A --> C[Channel & Creative]
@@ -17,4 +17,4 @@ flowchart TD
   F --> H6[H6: Discount too shallow/deep lowers ROI (find optimum)]
   G --> H7[H7: Inter-store variance; compliance affects Lift%]
   H --> H8[H8: Overexposure -> diminishing returns on Lift]
-text
+```
